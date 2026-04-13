@@ -30,7 +30,7 @@ CreateDatabase(app);
 
 if (app.Environment.IsDevelopment()) { app.UseSwagger(); app.UseSwaggerUI(); }
 
-InjectDataBase(app.Services);
+//InjectDataBase(app.Services);
 
 app.MapControllers();
 app.Run();

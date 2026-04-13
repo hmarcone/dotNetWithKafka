@@ -25,43 +25,6 @@ public class UserController : ControllerBase
 	{
 		return await _context.Users.ToListAsync();
 	}
-
-	//[HttpGet]
-	//public async Task<ActionResult<IQueryable<Post>>> GetPost()
-	//{
-	//	return await _context.Posts.Include(x => x.User).ToListAsync();
-	//}
-
-	//[HttpPost]
-	//public async Task<IActionResult> Enviar([FromBody] string texto)
-	//{
-
-	//	if (string.IsNullOrEmpty(texto))
-	//		return BadRequest();
-
-	//	var user = new User { Id = 2, Name = "hfreitas" };
-	//	var post = new Post
-	//	{
-	//		PostId = 2,
-	//		User = user,
-	//		Content = texto,
-	//		Title = $@"Mensagem do User {user.Id}"
-	//	};
-
-	//	_context.Posts.Add(post);
-
-	//	await _context.SaveChangesAsync();
-
-
-	//	var message = new Message<string, string> { Value = texto };
-
-	//	await _producer.ProduceAsync("meu-topico-teste", message);
-
-	//	return CreatedAtAction("GetPost", new { id = post.PostId }, post);
-
-	//	//return Ok($"Mensagem '{texto}' enviada com sucesso!");
-	//}
-
 	
 	[HttpPut("{id}")]
 	public async Task<IActionResult> PutUser(int id, User user)
@@ -122,7 +85,6 @@ public class UserController : ControllerBase
 
 			_context.Entry(user).State = EntityState.Modified;
 		}
-
 
 		await _context.SaveChangesAsync();
 
