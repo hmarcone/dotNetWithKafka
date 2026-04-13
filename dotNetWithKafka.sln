@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.4.11626.88 stable
+VisualStudioVersion = 18.4.11626.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWithKafka", "dotNetWithKafka.csproj", "{6B2C93B1-2BF6-3B2E-2B21-6DC7E1B40ECB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUser", "ApiUser\ApiUser.csproj", "{BACA2A0F-11C0-067E-CC42-53DDFEE09CD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B2C93B1-2BF6-3B2E-2B21-6DC7E1B40ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B2C93B1-2BF6-3B2E-2B21-6DC7E1B40ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B2C93B1-2BF6-3B2E-2B21-6DC7E1B40ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B2C93B1-2BF6-3B2E-2B21-6DC7E1B40ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACA2A0F-11C0-067E-CC42-53DDFEE09CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACA2A0F-11C0-067E-CC42-53DDFEE09CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACA2A0F-11C0-067E-CC42-53DDFEE09CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACA2A0F-11C0-067E-CC42-53DDFEE09CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
